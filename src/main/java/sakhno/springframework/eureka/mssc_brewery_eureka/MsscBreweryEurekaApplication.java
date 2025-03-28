@@ -4,6 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
+/**
+ * Данный сервис выступает в роли сервера Eureka(регистрация приложений).
+ */
 @EnableEurekaServer
 @SpringBootApplication
 public class MsscBreweryEurekaApplication {
