@@ -80,6 +80,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+					<mainClass>sakhno.springframework.eureka.mssc_brewery_eureka.MsscBreweryEurekaApplication</mainClass>
 					<layers>
 						<includeLayerTools>true</includeLayerTools>
 					</layers>
